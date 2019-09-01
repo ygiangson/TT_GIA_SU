@@ -8,12 +8,12 @@ const colors = {
     primary: "#f3f3f3",
     primaryDark: "#F6CB26",
     primaryDark1: "#2E384D",
-    bottombarBg: '##F7F7F7',
+    bottombarBg: '#EEF3F5',
     active: '#2E5BFF',
     inactive: 'gray',
     indicator: "#ff3b00",
     borderTopColor: "#dddd",
-    borderLogin:"#07C9E7",
+
     blue: '#2E5BFF',
     lightblue: 'rgba(46,92,255,0.2)',
     green: '#33AC2E',
@@ -208,7 +208,7 @@ const styles = StyleSheet.create({
     test: {
         flex: 1,
         backgroundColor: colors.primary,
-        // justifyContent: 'center',
+        justifyContent: 'center',
         alignItems: 'center'
     },
 

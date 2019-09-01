@@ -16,10 +16,7 @@ export default {
     login:'Đăng nhập',
     login_phonenumber:'Đăng nhập bằng số điện thoại',
     phone_number:'Số điện thoại...',
-    network_err: 'Không có internet',
-    class:'Lớp học',
-    salary:'Lương',
-    
+    network_err: 'Không có internet'
     
 
 }

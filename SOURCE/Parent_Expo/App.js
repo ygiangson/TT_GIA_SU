@@ -44,17 +44,10 @@ export default class App extends React.Component {
     return Promise.all([
       Asset.loadAsync([
         require('./assets/images/robot-dev.png'),
-        require('./assets/images/bg_img.png')
       ]),
       Font.loadAsync({
         ...Icon.SimpleLineIcons.font,
         'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf'),
-        'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf'),
-        'roboto-light': require('./assets/fonts/Roboto-Light.ttf'),
-        "roboto-bold": require('./assets/fonts/Roboto-Bold.ttf'),
-        "roboto-regular": require('./assets/fonts/Roboto-Regular.ttf'),
-        "roboto-medium": require('./assets/fonts/Roboto-Medium.ttf'),
-        "roboto-light-italic": require('./assets/fonts/Roboto-LightItalic.ttf'),
       }),
     ]);
   };

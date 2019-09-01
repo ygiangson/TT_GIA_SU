@@ -1,9 +1,8 @@
 export default {
-    home: "Trang chủ",
+    home: "Home",
     notification: "Thông báo",
     user: "Người dùng",
     account: "Tài khoản",
-
     update_user: "SỬA THÔNG TIN",
     his_deal: "Lịch sử giao dịch",
     question: "Hỏi đáp",
@@ -16,10 +15,7 @@ export default {
     login:'Đăng nhập',
     login_phonenumber:'Đăng nhập bằng số điện thoại',
     phone_number:'Số điện thoại...',
-    network_err: 'Không có internet',
-    class:'Lớp học',
-    salary:'Lương',
-    
+    network_err: 'Không có internet'
     
 
 }
